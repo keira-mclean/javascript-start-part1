@@ -18,7 +18,10 @@
 
 function numbers() {
     let price = 20;
-    price += 15;
+    price = price + 15;
+    console.log(price);
+    price -= 8;
+    console.log(price);
     //I don't know what it means to subtract from a variable w/out using the variable
     let avgNums = [26, 44, 72, 86, 112];
     
